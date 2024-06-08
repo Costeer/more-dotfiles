@@ -1,0 +1,106 @@
+[
+  {
+    "title": "Chill",
+    "links": [
+      {
+        "label": "Aniworld",
+        "value": "https://aniworld.to/"
+      },
+      {
+        "label": "Youtube",
+        "value": "https://www.youtube.com"
+      },
+      {
+        "label": "Hurawatch",
+        "value": "https://hurawatch.bz/home"
+      },
+      {
+        "label": "reddit",
+        "value": "https://www.reddit.com/"
+      }
+    ]
+  },
+  {
+    "title": "Dev",
+    "links": [
+      {
+        "label": "Github",
+        "value": "https://github.com/Costeer/"
+      },
+      {
+        "label": "Nobara Docs",
+        "value": "https://nobaraproject.org/download-nobara/"
+      },
+      {
+        "label": "Nexus",
+        "value": "https://www.nexusmods.com/"
+      },
+      {
+        "label": "ProtonDB",
+        "value": "https://www.protondb.com"
+      },
+      {
+        "label": "HackTrichs",
+        "value": "https://book.hacktricks.xyz/"
+      }
+    ]
+  },
+  {
+    "title": "Design",
+    "links": [
+      {
+        "label": "Colorhunt",
+        "value": "https://colorhunt.co/"
+      },
+      {
+        "label": "Hues-happy",
+        "value": "https://www.happyhues.co/"
+      },
+      {
+        "label": "Backdrop-gen",
+        "value": "https://app.haikei.app/"
+      },
+      {
+        "label": "Terminal-sexy",
+        "value": "https://terminal.sexy/"
+      },
+      {
+        "label": "AI Image Enlarger",
+        "value": "https://bigjpg.com/en"
+      },
+      {
+        "label": "Img to Svg Converter",
+        "value": "https://picsvg.com/"
+      }
+    ]
+  },
+  {
+    "title": "Pers",
+    "links": [
+      {
+        "label": "Mail",
+        "value": "https://mail.proton.me/u/0/inbox"
+      },
+      {
+        "label": "Icons - FontAwesome",
+        "value": "https://fontawesome.com/icons"
+      },
+      {
+        "label": "Text Flicker - CodeMyUI",
+        "value": "https://codemyui.com/crt-screen-text-flicker-animation-in-pure-css/"
+      },
+      {
+        "label": "Wave Animation - mburakerman",
+        "value": "https://codepen.io/mburakerman/pen/eRZZEv"
+      },
+      {
+        "label": "Da real sauce ԅ(♡﹃♡ԅ)",
+        "value": "https://www.youtube.com/watch?v=qr89xoZyE1g"
+      },
+      {
+        "label": "Drive",
+        "value": "https://drive.google.com/drive/my-drive"
+      }
+    ]
+  }
+]
