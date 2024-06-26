@@ -1,0 +1,13 @@
+# Theme
+
+import = [
+   "~/.config/alacritty/catppuccin-mocha.toml"
+]
+
+[font]
+
+  normal = { family = "Jetbrains Mono Nerdfont", style = "Regular" }
+
+[window]
+
+  padding = { x = 4, y = 4 }
