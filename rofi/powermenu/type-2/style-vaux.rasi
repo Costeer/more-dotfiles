@@ -1,0 +1,170 @@
+/**<
+ *
+ * Author : Aditya Shakya (adi1090x)
+ * Github : @adi1090x
+ * 
+ * Rofi Theme File
+ * Rofi Version: 1.7.3
+ **/
+
+/*****----- Configuration -----*****/
+configuration {
+    show-icons:                 false;
+}
+
+/*****----- Global Properties -----*****/
+@import				 "~/.config/rofi/colors/vaux.rasi"
+@import                          "shared/fonts.rasi"
+
+/*
+USE_BUTTONS=YES
+*/
+
+/*****----- Main Window -----*****/
+window {
+    /* properties for window widget */
+    transparency:                "real";
+    fullscreen:                  false;
+    width:			 280px;
+    height:                      295px;
+    x-offset:                    15px;
+    y-offset:                    0px;
+    border-radius:               100%;
+
+    /* properties for all widgets */
+    enabled:                     true;
+    margin:                      0px;
+    padding:                     0px;
+    border:                      2px solid;
+    border-radius:               30px;
+    border-color:                @cyan;
+    cursor:                      "default";
+    background-color:            @crust;
+}
+
+/*****----- Main Box -----*****/
+mainbox {
+    enabled:                     true;
+    spacing:                     15px;
+    margin:                      0px;
+    padding:                     15px;
+    border:                      0px solid;
+    border-radius:               0%;
+    border-color:                @selected;
+    background-color:            transparent;
+    children:                    [ "listview" ];
+}
+
+/*****----- Inputbar -----*****/
+inputbar {
+    enabled:                     true;
+    spacing:                     0px;
+    margin:                      0px;
+    padding:                     0px;
+    border:                      0px;
+    border-radius:               0px;
+    border-color:                @selected;
+    background-color:            transparent;
+    text-color:                  @fg;
+    children:                    [ "textbox-prompt-colon", "prompt"];
+}
+
+dummy {
+    background-color:            transparent;
+}
+
+textbox-prompt-colon {
+    enabled:                     true;
+    expand:                      false;
+    str:                         "";
+    padding:                     120px 160px;
+    border-radius:               0px;
+    background-color:            @urgent;
+    text-color:                  @bg;
+}
+prompt {
+    enabled:                     true;
+    padding:                     120px;
+    border-radius:               0px;
+    background-color:            @active;
+    text-color:                  @bg;
+}
+
+/*****----- Message -----*****/
+message {
+    enabled:                     true;
+    margin:                      500px;
+    padding:                     188px;
+    border:                      0px solid;
+    border-radius:               100%;
+    border-color:                @selected;
+    background-color:            @bg3;
+    text-color:                  @fg;
+}
+textbox {
+    background-color:            inherit;
+    text-color:                  inherit;
+    vertical-align:              0.5;
+    horizontal-align:            0.5;
+    placeholder-color:           @fg;
+    blink:                       true;
+    markup:                      true;
+}
+error-message {
+    padding:                     12px;
+    border:                      0px solid;
+    border-radius:               0px;
+    border-color:                @selected;
+    background-color:            @bg;
+    text-color:                  @fg;
+}
+
+/*****----- Listview -----*****/
+listview {
+    enabled:                     true;
+    columns:                     2;
+    lines:                       2;
+    cycle:                       true;
+    dynamic:                     true;
+    scrollbar:                   false;
+    layout:                      vertical;
+    reverse:                     false;
+    fixed-height:                true;
+    fixed-columns:               true;
+    
+    spacing:                     20px;
+    margin:                      7px;
+    padding:                     0px;
+    border:                      0px solid;
+    border-radius:               0px;
+    border-color:                @selected;
+    background-color:            transparent;
+    text-color:                  @fg;
+    cursor:                      "default";
+}
+
+/*****----- Elements -----*****/
+element {
+    enabled:                     true;
+    spacing:                     300px;
+    margin:                      1px;
+    padding:                     20px 0px;
+    border:                      0px solid;
+    border-radius:               100%;
+    border-color:                @selected;
+    background-color:            @crust;
+    text-color:                  @purple2;
+    cursor:                      pointer;
+}
+element-text {
+    font:                        "Ubuntu Nerd Font bold 44";
+    background-color:            transparent;
+    text-color:                  inherit;
+    cursor:                      inherit;
+    vertical-align:              0.7;
+    horizontal-align:            0.5;
+}
+element selected.normal {
+    background-color:            @crust;
+    text-color:                  @purple;
+}
