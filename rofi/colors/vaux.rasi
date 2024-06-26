@@ -1,0 +1,32 @@
+/**
+ *
+ * Colors by : @CyanVoxel
+ * Stolen by : @Costeer
+ * Github : https://github.com/CyanVoxel/vauxhall-obsidian
+ * 
+ * Colors
+ **/
+
+* {
+    bg:			#0a0a1cFF;
+    bg2:		#252459FF;
+    bg3: 		#0f0f28FF;
+    bgred:		#13040aFF;
+    fg:			#ffffffFF;
+    selected:		#7AA2F7FF;
+    active: 		#ABE9B3FF;
+    urgent:		#F28FADFF;
+    crust:		#000000FF;
+    mantle:		#000000FF;
+    text:		#b7bdf8FF;
+    base:		#24273aFF;	
+    sky:		#91d7e3FF;
+    blue:		#437cf3FF;
+    red:		#e3365eFF;
+    red2:		#1d0a12FF;
+    red3:		#c46e9fFF;
+    purple:		#c952edFF;
+    purple2:		#8572c9FF;
+    purple3:		#564b9aFF;
+    cyan:		#51e1e9ff;
+}
