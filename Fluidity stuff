@@ -79,7 +79,7 @@
     "links": [
       {
         "label": "Mail",
-        "value": "https://mail.proton.me/u/0/inbox"
+        "value": "https://account.proton.me/switch"
       },
       {
         "label": "Icons - FontAwesome",
