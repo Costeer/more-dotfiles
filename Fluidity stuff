@@ -15,6 +15,10 @@
         "value": "https://hurawatch.cc/home"
       },
       {
+        "label": "101st-Wiki",
+        "value": "https://costeer.github.io/101st-Wiki-Remade/"
+      },
+      {
         "label": "reddit",
         "value": "https://www.reddit.com/"
       }
@@ -42,6 +46,10 @@
       {
         "label": "HackTrichs",
         "value": "https://book.hacktricks.xyz/"
+      },
+      {
+        "label": "NixPackageSearch",
+        "value": "https://search.nixos.org/packages"
       }
     ]
   },
@@ -82,8 +90,8 @@
         "value": "https://account.proton.me/switch"
       },
       {
-        "label": "Icons - FontAwesome",
-        "value": "https://fontawesome.com/icons"
+        "label": "Discord Date Picker",
+        "value": "https://discord-date.shyked.fr/"
       },
       {
         "label": "Text Flicker - CodeMyUI",
