@@ -50,6 +50,10 @@
       {
         "label": "NixPackageSearch",
         "value": "https://search.nixos.org/packages"
+      },
+      {
+        "label": "HomeManagerOptions",
+        "value": "https://home-manager-options.extranix.com/"
       }
     ]
   },
