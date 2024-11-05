@@ -32,10 +32,6 @@
         "value": "https://github.com/Costeer/"
       },
       {
-        "label": "Nobara Docs",
-        "value": "https://nobaraproject.org/download-nobara/"
-      },
-      {
         "label": "Nexus",
         "value": "https://www.nexusmods.com/"
       },
@@ -96,6 +92,10 @@
       {
         "label": "Discord Date Picker",
         "value": "https://discord-date.shyked.fr/"
+      },
+      {
+        "label": "Steam Profile",
+        "value": "https://steamcommunity.com/id/Costeeeeeeeeeeeeeeeeeeeeeeeeeer"
       },
       {
         "label": "Text Flicker - CodeMyUI",
